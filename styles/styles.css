@@ -1,5 +1,53 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Lato";
 }
+
+body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      color: #033136;
+    }
+
+    /* === HEADER (Navbar) === */
+    .navbar {
+      background-color: #e6f4f1; 
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+    }
+
+    /* Dropdown del perfil */
+    .dropdown-menu {
+      --bs-dropdown-link-color: #033136;
+      --bs-dropdown-link-hover-color: #033136;
+      --bs-dropdown-link-hover-bg: #f1f3f5;
+    }
+
+
+
+
+    /* === FOOTER === */
+    .footer {
+      background-color: #033136;
+      color: white;
+      padding: 20px 0;
+    }
+
+    .footer a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      color: #a8dadc;
+      text-decoration: underline;
+    }
+
+    .footer .bi {
+      color: white;
+    }
+    .navbar-brand img {
+      max-height: 30px;
+    }

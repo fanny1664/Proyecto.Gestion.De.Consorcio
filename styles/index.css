@@ -1,0 +1,86 @@
+
+    .sidebar {
+      height: calc(100vh - 56px);
+      position:sticky;
+      top: 56px;
+      background-color: #f8f9fa;
+      border-right: 1px solid #dee2e6;
+    }
+
+   
+    .sidebar .nav-link,
+    .offcanvas .nav-link {
+      color: #033136;
+      font-weight: 500;
+    }
+
+    .sidebar .nav-link:hover,
+    .sidebar .nav-link.active,
+    .offcanvas .nav-link:hover,
+    .offcanvas .nav-link.active {
+      color: #033136;
+      background-color: #e9ecef;
+      
+    }
+
+    .sidebar .bi,
+    .offcanvas .bi {
+      color: #033136;
+    }
+     .main-content {
+      flex: 1;
+    }
+ 
+
+
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;            
+  gap: 20px;                  
+  justify-content: flex-start;
+  padding: 20px;
+  font-family: "lato";
+}
+
+
+.card-container .card {
+  flex: 1 1 250px;            
+  max-width: 19rem;           
+  border: 2px solid #033136;  
+  border-radius: 10px;
+  
+  background-color: #e9f7f1;  
+  color: #033136;
+}
+
+
+.card-container .card-header {
+  
+  
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+
+.card-container .card-title {
+  color: #033136;
+}
+
+.card-container .card-text {
+  font-size: 1.4rem;
+  color: #033136;
+}
+
+
+.card-container .btn-secondary {
+  background-color: #033136;
+  border: none;
+}
+
+.card-container .btn-secondary:hover {
+  background-color: #dee2e6;
+  color:#033136;
+}
+
