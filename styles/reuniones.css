@@ -1,0 +1,18 @@
+
+   
+.accordion-body{
+    display: grid;
+    grid-template-columns: repeat(7,30fr);
+    grid-template-rows: 200px;
+    gap: 10px;
+}
+
+.abi{
+    display: flex;
+    justify-content: center;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+}
